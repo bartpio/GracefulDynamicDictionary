@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Dynamic;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 
 namespace GracefulDynamicDictionary.Tests
 {
-	[TestClass]
+	[TestFixture]
 	public class Test
 	{
-		[TestMethod]
+		[Test]
 		public void TestMissingPropertyCheck()
 		{
 			dynamic dynamicObj = new DDict();
@@ -16,7 +16,7 @@ namespace GracefulDynamicDictionary.Tests
 			Assert.IsFalse(hasUnassignedProperty);
 		}
 
-		[TestMethod]
+		[Test]
 		public void TestAssignDynamicProp()
 		{
 			dynamic dynamicObj = new DDict();
