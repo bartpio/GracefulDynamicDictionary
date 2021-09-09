@@ -1,7 +1,8 @@
-#Graceful Dynamic Dictionary
+
+# Graceful Dynamic Dictionary
 A Dynamic object that lets you check for unassigned/non-existent properties by simply checking for null, without throwing or having to use Reflection.
 
-##Usage
+## Usage
 
 	dynamic myObj = new DDict();
 	
@@ -16,11 +17,14 @@ http://stackoverflow.com/q/2839598/176877
 
 Available on NuGet:
 
-https://www.nuget.org/packages/GracefulDynamicDictionary/
+https://www.nuget.org/packages/GracefulDynamicDictionaryCore/
 
-	PM> Install-Package GracefulDynamicDictionary
+	PM> Install-Package GracefulDynamicDictionaryCore
 
-##Migrating from older versions
+## Original Package
+This is a fork of [GracefulDynamicDictionary](https://www.nuget.org/packages/GracefulDynamicDictionary), with no substantial change to functionality.
+
+## Migrating from older versions
 
 An earlier version (1.0) of this library used the much longer class name, `DynamicGracefulDictionary`, as its main class. This has been replaced with `DDict`. To migrate older code that uses this library, just find and replace `DynamicGracefulDictionary` with `DDict`. All calls to it and usage of it will work as-is.
 

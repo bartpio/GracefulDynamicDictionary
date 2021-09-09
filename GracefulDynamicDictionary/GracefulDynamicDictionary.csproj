@@ -13,7 +13,7 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <Authors>Chris Moschini, Contributors</Authors>
     <Company></Company>
-    <Version>2.0.0-pre.1</Version>
+    <Version>2.0.0-pre.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>GracefulDynamicDictionaryCore</PackageId>
     <Description>A refresh of GracefulDynamicDictionary (https://www.nuget.org/packages/GracefulDynamicDictionary/) to target newer frameworks.</Description>
